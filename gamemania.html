@@ -5,36 +5,70 @@
     <head>
     <meta charset="UTF-8">
     <title>Game Mania</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="description" content="Game Mania, Vendas de pc gamer eletronicos jogos celulares e video games" />
     <meta name="keywords" content="Game Mania,Game,Eletronicos,Jogos,Pc gamer">
     <meta name="author" content="Edvaldo junior">
-    <meta name="viewport" content="Width=device-with, initialscale=1.0">
+    <meta name="viewport" content="Width=device-with, initialscale=1.0, maximum-scale=1.0">
     </head>
     
         <body>
         <header>
-        <nav id="menu">
-        <button><a href="gamemania.html">Inicio</a></button>
-        <button><a href="lancamentos.html">Lançamentos</a></button>
-        <button><a href="produtos.html">Produtos</a></button>
-        <button><a href="pcgamer.html">Pc Gamer</a></button>
-        <button><a href="aloja.html">A Loja</a></button>
-        </nav>
+        <div class="banner">
+        <img src="logo.png"title="logo"alt="Logo game mania">
+        </div>
+
+        <div id ="divBusca">
+        <input type="text" id="name"value="Busque aqui">
+        <img src="search.png" id="imagemBusca" alt="Buscar"/>
+        </div>
+
+        <div id ="login">
+        <img src="login.png"alt="imagem login">
+        <b><p>Faça login ou crie seu cadastro.</p></b>
+        </div>
+
+        <div id="sac">
+        <img src="sac.jpg"alt="imagem sac">
+        <b><p>SAC</p></b>    
+        </div>
+
+        <div id= "carrinho">
+        <img src="carrinho.png"alt="imagem carrinho">
+        <b><p>CARRINHO</p></b>
+        </div>
+        
+
+
         </header>
 
-        <h1>Bem-vindo</h1>
-        <img src="logo.png"title="logo"alt="Logo game mania">
-        <input type="text" id="name"value="Busque aqui">
-        <p>Game Mania</p>
-        <img src = "pcgamer.jpg"title="PC GAMER"alt="Imagem pc gamer"> <img src="pcgamerpp.jpg"title="PC GAMER"alt="Imagem pc gamer">
         
-       <h2><p align="center">Produtos em destaque</p></h2>
-       <p align="center"><img src="ps5.jpg"title="PS5"alt="Imagem PS5"></p>
-       <p align="center">SONY playstation 5 825GB digital edition cor branco e preto. R$6.499,00</p>
+            
+            <nav id="menu">
+            <a href="gamemania.html">Inicio</a>
+            <a href="lancamentos.html">Lançamentos</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="pcgamer.html">Pc Gamer</a>
+            <a href="aloja.html">A Loja</a>
+            </nav>
+            
 
-       <p align="center"><img src="xbox.png"title="XBOX"alt="Imagem XBOX"></p>
-       <p align="center">Microsoft XBOX series X 1TB standard cor preto. R$6.579,00</p>
-        
+        <img src = "pcgamer.jpg"title="PC GAMER"alt="Imagem pc gamer"> <img src="pcgamerpp.jpg"title="PC GAMER"alt="Imagem pc gamer">
+
+    <h2>Produtos em destaque</h2>
+
+    <ul>
+    <li>
+    <img src="ps5.jpg"title="PS5"alt="Imagem PS5">
+    <b><p>SONY playstation 5 825GB digital edition cor branco e preto.</p></b>
+    <p style="color:red;">R$6.499,00</p>
+    </li>
+    <li>
+    <img src="xbox.png"title="XBOX"alt="Imagem XBOX">
+    <b><p>Microsoft XBOX series X 1TB standard cor preto.</p></b>
+    <p style="color:red;">R$6.579,00</p>
+    </li>
+    </ul>
            
 
     
