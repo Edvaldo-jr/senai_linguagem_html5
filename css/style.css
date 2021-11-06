@@ -28,9 +28,12 @@ color: red;
 ul {
     list-style: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: white;
-    background-position: 500px;
+    align-content: flex-start;
+    
 }
 
 header {
@@ -78,6 +81,17 @@ h2{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    color: white;
+    color: white
+}
 
+
+img{
+    cursor: pointer;
+}
+
+li{
+    padding: 20px;
+    margin: 5px;
+    border-style: outset;
+    border-color:  #0090d3;
 }
