@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Game Mania</title>
+  <meta name="description" content="Game Mania, Vendas de pc gamer eletronicos jogos celulares e video games" />
+  <meta name="keywords" content="Game Mania,Game,Eletronicos,Jogos,Pc gamer">
+  <meta name="author" content="Edvaldo junior">
+  <meta name="viewport" content="Width=device-with, initialscale=1.0, maximum-scale=1.0">
+
+
+  <style>
+  body{
+    background-color: #0090d3;
+
+  }
+  span {
+    display: none;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+<a href = "gamemania.html"><img src="logo.png"title="logo"alt="Logo game mania"></a>
+<p><b>Usuario</b></p>
+<p><input type="text"> <span>Login</span></p>
+<p><input type="password"> <span>Senha</span></p>
+ 
+<script>
+    $( "input" ).focus(function() {
+      $( this ).next( "span" ).css( "display", "inline" ).fadeOut( 1000 );
+    });
+    </script>
+     
+    </body>
+    </html>
